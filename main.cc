@@ -1,9 +1,4 @@
-<<<<<<< HEAD
 #include "./head.hh"
-=======
-#include "./interpret.hh"
-
->>>>>>> 4096c7a9a565b34ae4b4a4d41e77978d6efe600c
 
 int main(int argc, char *argv[]) 
 {
