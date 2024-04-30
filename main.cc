@@ -1,6 +1,5 @@
 #include "./head.hh"
 
-
 int main(int argc, char *argv[]) 
 {
     ifstream codeFile(argv[1]);
