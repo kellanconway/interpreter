@@ -11,8 +11,6 @@ int main(int argc, char *argv[])
         "is"
     };
 
-    pl("hello");
-
     // error checking
     if (fileContent.size() == 0) {
         error("none", "Theres nothing here");
