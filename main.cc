@@ -50,7 +50,16 @@ int main(int argc, char *argv[])
                 else if (hasQuotes(ab) == '\'')
                     cout << trim(ab);
                 else { // TODO: finish print statement
-                    cout << "no quotes " ;
+                    for (int b=0; b < variables.size(); b++) {
+                        string varName = variables[b][0];
+                        if (ab == varName) {
+                            cout << variables[b][2] << " ";
+                        }
+                        else {
+                            error(lineNum, "what is this? I can't say that");
+                            return 1;
+                        }
+                    }
                 }
             }
             cout << "\n";
