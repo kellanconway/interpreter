@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
         "say",
         "is"
     };
-
+    
     // error checking
     if (fileContent.size() == 0) {
         error("none", "Theres nothing here");
@@ -25,7 +25,8 @@ int main(int argc, char *argv[])
         }
     }
     
-
+    // GIT TEST
+    // GIT TEST
 
     // logic for interpretation
     for (
